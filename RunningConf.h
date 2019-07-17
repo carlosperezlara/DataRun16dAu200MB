@@ -23,3 +23,10 @@ const unsigned int kTriggerMask = kR16dAu200_bbcnc | kR16dAu200_bbn; // Run16dAu
 //const Int_t kFlatten = 32;
 //const Float_t kMinBinVtx = -20.0;
 //const Float_t kMinBinCen = 0.0;
+
+//Config for EventChecker
+const Int_t kBBCADCMin_S = 71; // Au
+const Int_t kBBCADCMax_S = 93; // Au
+const Int_t kBBCADCMin_N = 5;  // d
+const Int_t kBBCADCMax_N = 50; // d
+
